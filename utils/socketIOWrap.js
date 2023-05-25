@@ -1,0 +1,1 @@
+module.exports = socketIOWrap = middleware => (socket, next) => middleware(socket.request, {}, next)
